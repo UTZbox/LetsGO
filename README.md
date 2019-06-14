@@ -1,11 +1,9 @@
 # LetsGO
 DIY, Advanced Remote CUE Controller for QLAB©, GO-Button© and Ableton© Live©
 
-This Project let you easy build USB Cue Controller, with integrated Audio and MIDI-Interface for using with QLAB©, GO-Button© and Ableton© Live©. No driver are needed to work. Just Plug n Play.
-
 // Introduction:
-The LetsGO Project is an USB Cue Controller device, which is developed for using with QLAB, GO-Button and Ableton Live.
-The Functionality goes up to Wireless-Remote, USB-Audio and MIDI-Interface!
+This Project let you easy build USB Cue Controller, with integrated Audio and MIDI-Interface for using with QLAB©, GO-Button© and Ableton© Live©. No driver are needed to work. Just Plug n Play.
+The Functionality goes up to USB and MIDI Cue Control, Wireless-Remote, USB-Audio and MIDI-Interface!
 
 It is a professional developed and testet device, which is used all day in different Theaters and Artist.
 Many times I was asked to built a device for someone.
