@@ -191,4 +191,4 @@ QLAB and Go-Button are registered Trademarks by Figure 53. www.figure53.com
 Ableton Live is a registered Trade Mark of Ableton www.ableton.com
 Ipad, Mac, iOS and OSX are registered Trade Marks of Aplle Inc. www.apple.com
 For details about using and licensing, please refer to the dedicated website or authors.
-The LetsGO Project ist licensed under GNU V3.
+The LetsGO Project ist licensed under GNU V3. Copyright by Mike Utz. www.utzs.ch
