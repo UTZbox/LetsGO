@@ -4,17 +4,15 @@ DIY, Advanced Remote CUE Controller for QLAB®, GO-Button® and Ableton© Live®
 // Introduction:
 This Project let you easy build USB Cue Controller, with integrated Audio and MIDI-Interface for using with QLAB®, GO-Button® and Ableton© Live®. No driver are needed to work. Just Plug n Play.
 The Functionality goes up to USB and MIDI Cue Control, Wireless-Remote, USB-Audio and MIDI-Interface!
+(Similar to Devies Like Audio-Ape or AirTurn, but with more functions integrated)
 
-It is a professional developed and testet device, which is used all day in different Theaters and Artist.
-Many times I was asked to built a device for someone.
-(Which costs some time that I actually not have yet)
-And since I not want to build a business with that, I decided to do a DIY Project and release it on GitHub.
+It is a professional developed and testet device, which is used all day in different by Theaters and Artist.
 
 // What can the LetsGO do?
 It can control the Software via 6 Push-buttons and 3 Mode Switch.
-It has a Hardware Midi Output, to control a Backup-Player or other Devices. It has a built in Stereo Audio Output with Line Level, running on 44.1kHz. It has a built in USB-MIDI Interface.
+It has a Serial Midi Output, to control a Backup-Player or other Devices. It has a built in Stereo Audio Output with Line Level, running on 44.1kHz. It has a built in USB-MIDI Interface.
 
-So you get an All in One Solution especially when using GO-Button with  iPad.
+So you get an All in One Solution especially when using GO-Button with iPad.
 
 The Push-Buttons are for GO, STOP ALL (Panic), Select previous Cue, Select next Cue, Volume Up and Down.
 To have some flexibility, there are 3 Mode buttons that switch the USB Commands and the Hardware Midi Output Commands.
@@ -23,21 +21,22 @@ The Controller using the Teensy Platform from Paul Stoffregen by PJRC, because i
 (Much more than Arduino)
 
 I programmed it to act as USB Keyboard, Audio and even Midi-Interface.
-The Main Focus was to have a fast, save, reliable and easy to use Controller for QLAB (on OSX), Go-Button (iOS,iPad) and Ableton Live (OSX).
-My tests showed up, that the connection of a USB-Keyboard is the fastet way for executing the Cues. (Midi and OSC have always more latency)
-The positive Side-effect is, that I no Driver for OSX or iOS is needed. :)
+The Main Focus was to have a fast, save, reliable and easy to use Controller.
+My tests showed up, that the connection of a USB-Keyboard is the fastet way for executing the Cues.
+(Midi and OSC have always more latency)
+The positive Side-effect is, that no Driver for OSX or iOS is needed. :)
 
 The Schematics is developed, that you can easily add a Wireless Remote.
 
 If you use an iPad (GO-Button), you are limited with USB connections.
-The built in Audio Output isn’t that good and the connector is to bad for a professional use.
+The built-in Audio Output isn’t that good and the connector is to bad for a professional use.
 Thats why I added an Audio Interface using the Teensy Audio-Shield.
-Yes there are sure better Audio IC``s or Boards, but for the most it has an acceptable quality.
+Yes there are sure better Audio IC``s or Boards, but it has an acceptable quality.
 (Please refer to Limitations)
 
 
-To see if the device is running or doing something, two Outputs for LEDs are programmed.
-One for Power is Up (RUN) and one for executing a Cue (TRANSMIT)
+To see if the Device is running or doing something, two Outputs for LEDs are programmed.
+One for Power Up (RUN) and one for executing a Cue (TRANSMIT)
 
 So in the the End you will get a professional developed tested device, but you can build it by our selves and save a lot of money.
 And you can even adjust it to your special needs. How Cool is that ;)
@@ -143,6 +142,7 @@ MIDI.h
 Audio.h
 Wire.h
 SPI.h
+SD.h
 
 // Important HINT for compiling Source Code:
 Within the Teensyduino there is no combination of Audio + Keyboard or Audio + Midi + keyboard for compiling settings.
