@@ -6,13 +6,14 @@ This Project let you easy build USB Cue Controller, with integrated Audio and MI
 The Functionality goes up to USB and MIDI Cue Control, Wireless-Remote, USB-Audio and MIDI-Interface!
 (Similar to Devies Like Audio-Ape or AirTurn, but with more functions integrated)
 
-It is a professional developed and testet device, which is used all day in different by Theaters and Artist.
+LetsGO is a professional developed and testet device, which is used all day in different by Theaters and Artist.
 
 // What can the LetsGO do?
 It can control the Software via 6 Push-buttons and 3 Mode Switch.
 It has a Serial Midi Output, to control a Backup-Player or other Devices. It has a built in Stereo Audio Output with Line Level, running on 44.1kHz. It has a built in USB-MIDI Interface.
+(See LetsGO in Action here: https://youtu.be/YLvgWyX-pi8)
 
-So you get an All in One Solution especially when using GO-Button with iPad.
+So you get an All in One Solution especially when using GO-Button with iPad or iPhone.
 
 The Push-Buttons are for GO, STOP ALL (Panic), Select previous Cue, Select next Cue, Volume Up and Down.
 To have some flexibility, there are 3 Mode buttons that switch the USB Commands and the Hardware Midi Output Commands.
@@ -180,9 +181,9 @@ Keyboard Layout „US_English“
 - Add 3th Keyboard Mode for Ableton Live with KeyStroke 9 and 0 instead Media Volume
 
 // Support
-If you need some Support just write me an E-mail to mail@utzs.ch (My Name is Mike)
+If you need some Support just send me an E-Mail to mail - at - utzs.ch (My Name is Mike)
 Or do you wish to have a preconfigured and tested Board?
-So just send me an E-Mail too. (I have always som on Stock)
+So just send me an E-Mail too. :-)
 
 // Licensing:
 The Project using Hardware, Software and Libraries which are released under the GNU and CC License.
