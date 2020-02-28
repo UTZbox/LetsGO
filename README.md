@@ -1,5 +1,5 @@
 # LetsGO
-DIY, Advanced Remote CUE Controller for QLAB®, GO-Button® and Ableton© Live®
+Advanced Remote CUE Controller for QLAB®, GO-Button® and Ableton© Live®
 
 // Introduction:
 This Project let you easy build USB Cue Controller, with integrated Audio and MIDI-Interface for using with QLAB®, GO-Button® and Ableton© Live®. No driver are needed to work. Just Plug n Play.
@@ -175,7 +175,7 @@ Keyboard Layout „US_English“
 
 (You can change the settings for CPU Speed and Optimize, but i recommend to use this)
 
-// To dos and further improvements:
+// Further improvements:
 - Change the Audio Clock to 48 kHz
 - Build a Basic Version with USB-MIDI Interface
 - Add 3th Keyboard Mode for Ableton Live with KeyStroke 9 and 0 instead Media Volume
