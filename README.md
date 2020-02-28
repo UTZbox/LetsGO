@@ -126,7 +126,6 @@ https://www.pjrc.com/teensy/loader.html
 With this you can program the Teensy directly, using the .hex file which are in the Project.
 There are actually, 3 Versions:
 LetsGO_basic (used with a Teensy LC)
-LetsGO_Audio (used with a Teensy 3.2 and the Teensy Audio-Shield)
 LetsGO_Aduio-Midi (used with a Teensy 3.2 and the Teensy Audio-Shield)
 
 
@@ -177,8 +176,7 @@ Keyboard Layout „US_English“
 
 // Further improvements:
 - Change the Audio Clock to 48 kHz
-- Build a Basic Version with USB-MIDI Interface
-- Add 3th Keyboard Mode for Ableton Live with KeyStroke 9 and 0 instead Media Volume
+- Maybe build a Basic Version with USB-MIDI Interface
 
 // Support
 If you need some Support just send me an E-Mail to mail - at - utzs.ch (My Name is Mike)
