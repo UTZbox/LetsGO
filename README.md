@@ -62,11 +62,6 @@ QLAB, Go-Button and Ableton can handle it as long you just playing back some aud
 But it is not possible to use the Inputs at the moment, because therefore the Sample-Rate have to be exactly 44.1 Khz.
 (or can be controlled by the applications, which is not possible with Teensy at the moment.)
 
-MIDI-Interface Notes, ControlChange, PitchBend, ProgrammChnge only.
-It is possible to add some more functions like AfterTouch, PolyPressure etc.
-For the most applications the implemented functions are enough.
-Also I want to prevent some CPU Power.
-
 
 // Part-List:
 A Part-List for all used Parts you will find as PDF within the Project.
@@ -99,14 +94,6 @@ I highly recommend to use a Optocoupler as it is shown for the Midi Input.
 Or use the schematic called (Long_Wire_Connection) which is also as .JPG within the Project.
 If you are under 10 m the Inputs are protected by the Z-Diode and the Pulldown Resistor.
 But make sure you always using the right polarity!
-
-// Wireless Remote:
-I made some very good experiences with the KAPPA-T868 Module from RF_Solutions.
-It’s a digital Telemetry Radio Modul, which use the Frequency of 868 MHz.
-This is much better than using any Bluetooth or other 2.4 GHz Standard.
-From RF Solutions are some corresponding Pocket Remote Transmitter called FOBBER or other Modules available.
-
-For users in the U.S.A or Canada! You have to use a Module with the Frequency of 433 MHz. (868 MHz. is not allowed)
 
 // Connection to (iPad)
 Whit the Camera Connection Kit you can connect it to the iPad.
@@ -160,14 +147,14 @@ Target folder for usb-desc.h:
 // Teensyduino Compiler Settings:
 For the Basic Version without Audio and MIDI (Teensy LC) use following settings:
 Board „Teensy LC“
-USB Type: Keyboard
+USB Type: Keyboard + MIDI
 CPU Speed „48 Mhz“
 Optimize „Faster“
 Keyboard Layout „US_English“
 
 For the whole functionality (Teensy 3.2) use following settings:
 Board „Teensy 3.2 / 3.1“
-USB Type: USB Audio + Keyboard MIDI + Serial
+USB Type: USB Audio + Keyboard + MIDI + Serial
 CPU Speed „72 Mhz“
 Optimize „Faster“
 Keyboard Layout „US_English“
@@ -176,7 +163,6 @@ Keyboard Layout „US_English“
 
 // Further improvements:
 - Change the Audio Clock to 48 kHz
-- Maybe build a Basic Version with USB-MIDI Interface
 
 // Support
 If you need some Support just send me an E-Mail to mail - at - utzs.ch (My Name is Mike)
