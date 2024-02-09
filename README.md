@@ -2,43 +2,38 @@
 Advanced Remote CUE Controller for QLAB®, GO-Button® and Ableton© Live®
 
 // Introduction:
-This Project let you easy build an USB Cue Controller, with integrated Audio and MIDI-Interface for using with QLAB®, GO-Button® and Ableton© Live®. No driver are needed to work. Just Plug n Play.
-The Functionality goes up to USB-MIDI and Keyboard Cue Control, Wireless-Remote, USB-Audio and MIDI-Interface!
+This Project let you easy build an USB Cue Controller, with integrated Audio-Interface for using with QLAB®, GO-Button® and Ableton© Live®. No driver are needed to work. Just Plug n Play.
+The Functionality goes up to USB-MIDI and Keyboard Cue Control, USB-Audio-Interface plus Wireless Remote Control!
 (Similar to Devies Like Audio-Ape or AirTurn, but with more functions integrated)
 
 LetsGO is a professional developed and testet device, which is used all day in different by Theaters and Artist.
 
 // What can the LetsGO do?
-It can control the Software via 4 Push-buttons and different Mode Switch.
-It has a Serial Midi Output, to control a Backup-Player or other Devices. It has a built in Stereo Audio Output with Line Level, running on 44.1kHz. It has a built in USB-MIDI Interface.
+It can control the Software via 4 Push-buttons and different Mode Switchs.
+It has a Serial Midi Output, to control a Backup-Player or other Devices. It has a built in Stereo Audio Output with Line Level, running on 44.1kHz.
 
 So you get an All in One Solution especially when using GO-Button with iPad or iPhone.
 
-The Push-Buttons are for GO, SSTOP, Select previous Cue, Select next Cue.
-To have some flexibility, there are different Mode buttons that switch the USB-Midi and Keyboard Commands and the Hardware Midi Output Commands.
+The Push-Buttons are mainly used for GO, STOP, Select previous Cue, Select next Cue.
+To have some flexibility ther are Mode Switch, that you can also control KeyNote, PowerPoint or other Application directly.
 
-The Controller using the Teensy Platform from Paul Stoffregen by PJRC, because it is very flexible and has a lot of functions ready.
+The Controller using the Teensy Platform from Paul Stoffregen by PJRC.
+Thats why no Driver for OSX or iOS is needed. :)
 
-I programmed it to act as USB Keyboard, Audio and even Midi-Interface.
-The Main Focus was to have a fast, save, reliable and easy to use Controller.
-My tests showed up, that the connection of a USB-Keyboard is the fastet way for executing the Cues.
+The Main Focus on the development was to have a fast, save, reliable and easy to use Controller.
+My tests showed up, that using USB-Keyboard commands, is the fastet way for executing the Cues.
 (Midi and OSC have always more latency)
-The positive Side-effect is, that no Driver for OSX or iOS is needed. :)
-
-The Schematics is developed, that you can easily add a Wireless Remote.
 
 If you use an iPad (GO-Button), you are limited with USB connections.
 Thats why I added an Audio Interface using the Teensy Audio-Shield.
 Yes there are sure better Audio IC``s or Boards, but it has an acceptable quality.
 (Please refer to Limitations)
 
-
 To see if the Device is running or doing something, two Outputs for LEDs are programmed.
 One for Power Up (RUN) and one for executing a Cue (TRANSMIT)
 
 So in the the End you will get a professional developed tested device, but you can build it by our selves and save a lot of money.
 And you can even adjust it to your special needs.
-
 
 // Functions:
 The Basic Version "LetsGo_1.3" act as HID USB-Keyboard as well as USB- MIDI Device.
@@ -49,7 +44,6 @@ The Audio Version "LetsGo_Audio_1.3" act additionally as USB Audio Device with a
 It is used with a Teensy 3.2 and a Teensy Audio Shield on Top.
 Because the Teensy 4.x are now more common, there is an Version for this as well.
 "LetsGO_Audio_1.4"
-
 
 // Limitations:
 Audio-Interface Output Only.
@@ -63,7 +57,6 @@ Attention, if you use an Teensy 4.x the PinOut id different.
 Please refer to the PinOut Document.
 (Please refer to Usage of Pull-Down Resistors as well)
 
-
 // Functionality of Input-Pins on Teensy:
 Please refer to the PDF „Pin-Function_Matrix
 Make sure you dont confound between Pin-Nr. and Pin-Label!
@@ -76,7 +69,6 @@ This can even happen if you don’t have an electric connection, but thru  elect
 So please use for every Push-Button Input a 10k Ohm Resistor. I highly recommend the 3.6V Z-Diode as well to protect the Inputs.
 If you don’t want to use a dedicated Input, so just connect this input to ground! (GND)
 This prevents it from suddenly execute a function
-
 
 // HINT for Long wires connected:
 If you want to use long distances between the „Push-Buttons“ and the Teensy, ( over 10m)
@@ -92,8 +84,7 @@ The Teensy will be powered from the iPad.
 But I highly recommend to use the Apple USB3 Connector.
 With this, you can power up the iPad thru the original Charger.
 
-
-// Compiled Files:
+// PreCompiled Files:
 You don’t have to do some coding ore compiling the source code for programming the Teensy.
 Just download and install the Teensy Loader from PJRC.com.
 https://www.pjrc.com/teensy/loader.html
@@ -108,15 +99,6 @@ Because I don’t want to hide it and try to make some money, the source code is
 It took many hours to build it. Even if it looks very simple, there are a lot of work of testing and optimizing inside.
 We use the „LetsGo“ all day in a professional setting and it has to be reliable, fast, save and easy to use.
 So you are welcome to change the code to your needs. But please read the Important HINT for compiling the Source Code first.
-
-// Used Libraries
-Following Libraries are used by the Source Code:
-Bounce2.h
-MIDI.h
-Audio.h
-Wire.h
-SPI.h
-SD.h
 
 // Important HINT for compiling Source Code:
 Within the Teensyduino there is no combination of Audio + Keyboard or Audio + Midi + keyboard for compiling settings.
